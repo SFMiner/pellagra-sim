@@ -1,0 +1,27 @@
+; The Pellagra Mystery. Built on SimKit (addons/simkit, an unedited copy).
+config_version=5
+
+[application]
+
+config/name="Pellagra Mystery"
+config/description="Investigate how corn processing changes usable niacin, NAD cycling, ATP supply and community health."
+run/main_scene="res://Main.tscn"
+config/features=PackedStringArray("4.7", "GL Compatibility")
+config/icon="res://icon.svg"
+
+[display]
+
+window/size/viewport_width=1300
+window/size/viewport_height=550
+window/stretch/mode="canvas_items"
+window/stretch/aspect="expand"
+window/dpi/allow_hidpi=true
+
+[internationalization]
+
+locale/fallback="en"
+
+[rendering]
+
+renderer/rendering_method="gl_compatibility"
+renderer/rendering_method.mobile="gl_compatibility"

@@ -1,0 +1,11 @@
+{
+	"_note": "Illustrative community presets. diverse_share = average share of the diet that comes from other, varied foods; share_sd = how much households differ. Index 0 has no preset diet.",
+	"cohorts": [
+		{"id": "custom", "food": "", "processing": "", "diverse_share": 0.05, "share_sd": 0.05},
+		{"id": "tenant", "food": "degermed", "processing": "unfortified", "diverse_share": 0.12, "share_sd": 0.12},
+		{"id": "institution", "food": "degermed", "processing": "unfortified", "diverse_share": 0.04, "share_sd": 0.02},
+		{"id": "diverse", "food": "diverse", "processing": "", "diverse_share": 0.0, "share_sd": 0.0},
+		{"id": "nixtamal", "food": "whole", "processing": "nixtamalized", "diverse_share": 0.1, "share_sd": 0.06},
+		{"id": "fortified", "food": "degermed", "processing": "fortified", "diverse_share": 0.08, "share_sd": 0.06}
+	]
+}

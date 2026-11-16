@@ -1,0 +1,8 @@
+{
+	"_note": "Languages in button order. 'default' is the language every visit starts in. To add a language: copy en.json to <code>.json, translate the values (never the keys or the {names} in braces), and add one line here.",
+	"default": "en",
+	"languages": [
+		{"code": "en", "name": "English", "file": "en.json"},
+		{"code": "es", "name": "Español", "file": "es.json"}
+	]
+}

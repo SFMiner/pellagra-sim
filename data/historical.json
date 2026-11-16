@@ -1,0 +1,32 @@
+{
+	"_note": "Figures from the lesson's Student Materials (BIO U5 L3, SY 26-27): the four research summaries in 'Explore 1: Goldberger's Research Summaries' and Data Table 1 in 'Goldberger's Investigation Part 2'. Checked against that handout on 2026-11-16. Read-only: the simulation never generates or changes them. 'year' is when the people were observed. Income rows use the table's Total columns (persons, cases, rate per 1000); the Males and Females columns are not included. The handout prints the second bracket as '$8.00-$7.99'; it is shown here as $6.00 to $7.99, which is what its place in the table requires.",
+	"studies": [
+		{"id": "orphanage_mj", "year": "1914–1915", "rows": [
+			{"key": "prev_affected", "count": 0, "total": 67},
+			{"key": "prev_unaffected", "count": 0, "total": 99}
+		]},
+		{"id": "orphanage_bj", "year": "1914–1915", "rows": [
+			{"key": "prev_affected", "count": 1, "total": 105},
+			{"key": "prev_unaffected", "count": 0, "total": 69}
+		]},
+		{"id": "sanitarium", "year": "1914–1915", "rows": [
+			{"key": "modified_diet", "count": 0, "total": 72},
+			{"key": "comparison_a", "count": 9, "total": 17},
+			{"key": "comparison_b", "count": 6, "total": 15}
+		]},
+		{"id": "prison", "year": "1915", "rows": [
+			{"key": "volunteers", "count": 6, "total": 11}
+		]},
+		{"id": "transmission", "year": "1916", "rows": [
+			{"key": "volunteers", "count": 0, "total": 16}
+		]},
+		{"id": "income", "year": "1916", "per": 1000, "rows": [
+			{"key": "below6", "rate": 42.7, "cases": 56, "persons": 1312},
+			{"key": "from6", "rate": 26.0, "cases": 27, "persons": 1037},
+			{"key": "from8", "rate": 12.8, "cases": 10, "persons": 784},
+			{"key": "from10", "rate": 4.1, "cases": 3, "persons": 736},
+			{"key": "above14", "rate": 3.4, "cases": 1, "persons": 291},
+			{"key": "all", "rate": 23.3, "cases": 97, "persons": 4160}
+		]}
+	]
+}

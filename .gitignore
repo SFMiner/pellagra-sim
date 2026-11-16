@@ -1,0 +1,14 @@
+# Godot editor cache
+.godot/
+*.translation
+
+# Lesson documents: used for checking figures only, never committed
+*.docx
+*.pdf
+
+# Local test output
+tests/web/out/
+*.log
+
+# The build prompt stays local
+fable-prompt.md

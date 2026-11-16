@@ -1,0 +1,34 @@
+{
+	"_note": "English text that is hard-coded inside the SimKit addon (v0.1.0), mapped to catalog keys so it can be translated without editing SimKit. 'ui' = text on SimKit's buttons and labels (matched exactly). 'announce' = SimKit's screen-reader messages: whole messages, or a fixed start or end of one.",
+	"ui": {
+		"Start": "sk.start",
+		"Pause": "sk.pause",
+		"Resume": "sk.resume",
+		"Run again": "sk.run_again",
+		"Reset": "sk.reset",
+		"Step": "sk.step",
+		"Reset settings": "sk.reset_settings",
+		"Learning objectives": "sk.objectives",
+		"How to use it": "sk.how_to",
+		"Show explanation": "sk.show_explanation",
+		"Explanation shown": "sk.explanation_shown",
+		"Words to know (select one)": "sk.words"
+	},
+	"announce": {
+		"exact": {
+			"Paused": "sk.a_paused",
+			"Running": "sk.a_running",
+			"Started again": "sk.a_started_again",
+			"Reset": "sk.a_reset",
+			"Settings reset": "sk.a_settings_reset"
+		},
+		"prefix": {
+			"Chosen: ": "sk.a_chosen",
+			"Speed ": "sk.a_speed"
+		},
+		"suffix": {
+			": On": "sk.a_on",
+			": Off": "sk.a_off"
+		}
+	}
+}

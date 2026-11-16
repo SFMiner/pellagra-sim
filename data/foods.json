@@ -1,0 +1,50 @@
+{
+	"_note": "Relative indices. 1.0 usable niacin = the illustrative reference intake that keeps the model's NAD pool full. Not physiological quantities.",
+	"foods": ["whole", "degermed", "diverse"],
+	"processing": {
+		"whole": ["untreated", "nixtamalized"],
+		"degermed": ["unfortified", "fortified"],
+		"diverse": []
+	},
+	"profiles": {
+		"whole_untreated": {
+			"food": "whole", "processing": "untreated", "sample": "whole_meal",
+			"energy_available": 1.0, "niacin_content": 0.9, "niacin_bioavailability": 0.3,
+			"tryptophan_contribution": 0.2, "fortification": 0.0,
+			"germ": true, "bran": true
+		},
+		"whole_nixtamalized": {
+			"food": "whole", "processing": "nixtamalized", "sample": "masa_flour",
+			"energy_available": 1.0, "niacin_content": 0.85, "niacin_bioavailability": 0.9,
+			"tryptophan_contribution": 0.22, "fortification": 0.0,
+			"germ": true, "bran": false
+		},
+		"degermed_unfortified": {
+			"food": "degermed", "processing": "unfortified", "sample": "degermed_meal",
+			"energy_available": 1.0, "niacin_content": 0.35, "niacin_bioavailability": 0.3,
+			"tryptophan_contribution": 0.1, "fortification": 0.0,
+			"germ": false, "bran": false
+		},
+		"degermed_fortified": {
+			"food": "degermed", "processing": "fortified", "sample": "fortified_meal",
+			"energy_available": 1.0, "niacin_content": 0.35, "niacin_bioavailability": 0.3,
+			"tryptophan_contribution": 0.1, "fortification": 0.9,
+			"germ": false, "bran": false
+		},
+		"diverse": {
+			"food": "diverse", "processing": "none", "sample": "fruit_veg",
+			"energy_available": 1.0, "niacin_content": 1.0, "niacin_bioavailability": 0.75,
+			"tryptophan_contribution": 0.5, "fortification": 0.0,
+			"germ": true, "bran": true
+		}
+	},
+	"sample_order": ["whole_meal", "degermed_meal", "masa_flour", "fortified_meal", "fruit_veg", "burger_fries"],
+	"samples": {
+		"whole_meal": {"moisture_factor": 0.62, "moisture_exchange": 0.15, "spoilage_susceptibility": 1.0, "lipid_content": 1.0},
+		"degermed_meal": {"moisture_factor": 0.62, "moisture_exchange": 0.15, "spoilage_susceptibility": 0.92, "lipid_content": 0.2},
+		"masa_flour": {"moisture_factor": 0.62, "moisture_exchange": 0.15, "spoilage_susceptibility": 1.0, "lipid_content": 0.85},
+		"fortified_meal": {"moisture_factor": 0.62, "moisture_exchange": 0.15, "spoilage_susceptibility": 0.92, "lipid_content": 0.2},
+		"fruit_veg": {"moisture_factor": 0.98, "moisture_exchange": 0.012, "spoilage_susceptibility": 1.0, "lipid_content": 0.05},
+		"burger_fries": {"moisture_factor": 0.93, "moisture_exchange": 0.4, "spoilage_susceptibility": 0.9, "lipid_content": 0.8}
+	}
+}
