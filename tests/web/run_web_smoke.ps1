@@ -2,7 +2,7 @@
 # PowerShell 7. From the project folder:   pwsh tests/web/run_web_smoke.ps1
 # Needs: python, node, and playwright (found in the sims site's node_modules), and Chrome installed.
 param(
-	[string]$Export = (Join-Path $PSScriptRoot "..\..\..\exports\pellagra-mystery"),
+	[string]$Export = (Join-Path $PSScriptRoot "..\..\..\sfminer.github.io\pellagra-sim"),
 	[string]$Out = (Join-Path ([IO.Path]::GetTempPath()) "pellagra-web-check"),
 	[int]$Port = 8837,
 	[string]$NodeModules = (Join-Path $PSScriptRoot "..\..\..\..\..\Website\game-sim-server\node_modules")

@@ -46,7 +46,7 @@ $godot = "C:\Users\seanm\Nextcloud2\Gamedev\Godot_v4.7.2-stable_win64_console.ex
 & $godot --path .                          # run on the desktop
 & $godot --path . -- "--query=?view=population&food=degermed"   # try class settings on the desktop
 pwsh tests/run_all.ps1                     # the three headless test files
-& $godot --headless --path . --export-release "Web" "../exports/pellagra-mystery/index.html"
+& $godot --headless --path . --export-release "Web" "../sfminer.github.io/pellagra-sim/index.html"
 pwsh tests/web/run_web_smoke.ps1           # serves the export in an iframe harness and checks it in Chrome
 & $godot --path . --script tests/shot.gd -- --out=C:/tmp/shot.png --do=es,degermed,start,wait4   # a picture to look at
 ```
@@ -60,7 +60,7 @@ addon copy is not edited. The adapted file uses SimKit's `deploy/harness.html` a
 | Fact | Value |
 |---|---|
 | Title | The Pellagra Mystery |
-| Folder | `pellagra-mystery` (export at `GodotGames\exports\pellagra-mystery\`, `index.html` at its root) |
+| Folder | `pellagra-mystery` (export at `GodotGames\sfminer.github.io\pellagra-sim\`, `index.html` at its root) |
 | Description | Investigate how corn processing changes usable niacin, NAD cycling, ATP supply and community health. |
 | Godot version | 4.7.2.stable.official (ed1daf0bf), GDScript, GL Compatibility, no threads |
 | Export template | `Gamedev\godot-2d-web-template-adv\godot-4.7.2.web.template_release.wasm32.nothreads.adv.zip` (release, Export With Debug off) |
